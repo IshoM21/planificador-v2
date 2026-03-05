@@ -22,7 +22,7 @@ public record ActivityCreateRequest(
 
 		@NotBlank(message = "actividad es requerida") @Size(max = 120, message = "actividad máximo 120 caracteres") String actividad,
 
-		@Size(max = 120, message = "responsable máximo 120 caracteres") @NotNull(message = "responsable es requerido") String responsable,
+		@Size(max = 120, message = "responsable máximo 120 caracteres") @NotBlank(message = "responsable es requerido") String responsable,
 
 		@Size(max = 20000, message = "desarrollo demasiado largo") String desarrollo,
 
