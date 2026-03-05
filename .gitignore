@@ -1,0 +1,98 @@
+HELP.md
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Build
+
+
+# Logs
+*.log
+logs/
+
+# Generated PDFs
+pdf/
+exports/
+generated/
+
+# Temp files
+tmp/
+temp/
+
+# Jasper
+*.jasper
+
+# Config local
+application-local.yml
+application-dev.yml
+.env
+
+# H2 database
+*.mv.db
+*.trace.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+# Maven
+target/
+*.log
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Environment
+.env
+application-prod.properties
+application-prod.yml
